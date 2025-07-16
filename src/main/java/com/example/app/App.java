@@ -5,3 +5,4 @@ public class App {
         System.out.println("Hello, GitHub Actions with Maven!");
     }
 }
+
