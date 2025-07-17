@@ -1,7 +1,7 @@
 # Use an official OpenJDK image
 FROM openjdk:17-jdk-slim
 
-# Create app directory
+# Create app directory 
 WORKDIR /app
 
 # Copy the JAR file into the container
