@@ -7,5 +7,5 @@ WORKDIR /app
 # Copy the JAR file into the container
 COPY target/*.jar app.jar
 
-# Run the application
+# Run the application for java
 ENTRYPOINT ["java", "-jar", "app.jar"]
